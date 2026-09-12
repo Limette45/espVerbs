@@ -68,19 +68,28 @@
       margin-bottom: 25px;
     }
 
+
     .answer-box {
-      min-height: 100px;
+      height: 120px;
       padding: 25px;
       border: 2px dashed #bbb;
       border-radius: 12px;
       cursor: pointer;
+
       display: flex;
       justify-content: center;
       align-items: center;
+
       font-size: 18px;
       user-select: none;
-      transition: 0.2s;
-    }
+
+      transition: background 0.2s, border-color 0.2s;
+}
+
+.answer {
+  font-size: 30px;
+  font-weight: bold;
+}
 
     .answer-box:hover {
       background: #fafafa;
